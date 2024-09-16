@@ -15,13 +15,13 @@ const appMenuItem = <MenuItem> [
       title: 'Botones',
       subTitle: 'Varios botones en flutter',
       link: '/buttons',
-      icon: Icons.ac_unit
+      icon: Icons.add_a_photo_rounded
     ),
     MenuItem(
       title: 'Inputs',
       subTitle: 'Varios inputs en flutter',
       link: '/inputs',
-      icon: Icons.ac_unit
+      icon: Icons.input_rounded
     ),
     MenuItem(
       title: 'Cards',
