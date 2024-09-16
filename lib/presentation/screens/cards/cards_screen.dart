@@ -7,8 +7,9 @@ class CardsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        iconTheme: const IconThemeData(color: Colors.white),
         centerTitle: true,
-        title: const Text('Tarjetas'),
+        title: const Text('Tarjetas', style: TextStyle(color: Colors.white)), 
       ),
     );
   }

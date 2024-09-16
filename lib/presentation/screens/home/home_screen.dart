@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/app_colors.dart';
 import 'package:widgets_app/config/menu/menu_item.dart';
 import 'package:widgets_app/presentation/screens/buttons/buttons_screen.dart';
@@ -52,7 +53,7 @@ class _CustomLisTile extends StatelessWidget {
      leading: Icon(menuItem.icon, color:AppColors.primaryColor),
      trailing: const Icon(Icons.arrow_forward_ios, color:AppColors.primaryColor),
      onTap: () {
-        Navigator.of(context).push(MaterialPageRoute(builder: (context) => const ButtonsScreen() ,));
+        context.push(menuItem.link);
      },
     );
   }
